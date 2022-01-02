@@ -1,28 +1,31 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Test msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h1>brafonder.se</h1>
+    <header class="navbar">
+      <section class="navbar-section"></section>
+      <section class="navbar-center">
+        <a href="..." class="navbar-brand mr-2">Enkel</a>
+        <a href="..." class="btn btn-link">Komplett</a>
+        <a href="..." class="btn btn-link">Bakgrund</a>
+      </section>
+      <section class="navbar-section"></section>
+    </header>
   </div>
 </template>
 
 <script>
-import Test from './components/Test.vue'
-
 export default {
-  name: 'app',
-  components: {
-    Test
-  }
-}
+  components: {},
+  data() {
+    return {
+      data: null,
+    };
+  },
+  async mounted() {
+    this.update();
+  },
+  methods: {
+    async update() {},
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
