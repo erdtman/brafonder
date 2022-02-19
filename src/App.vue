@@ -33,7 +33,7 @@ function getActive(hash) {
       return "simple";
     case "#complete":
       return "complete";
-    case "#simple":
+    case "#background":
       return "background";
     default:
       return "simple";
