@@ -36,7 +36,7 @@ function getActive(hash) {
     case "#simple":
       return "background";
     default:
-      return "background";
+      return "simple";
   }
 }
 
