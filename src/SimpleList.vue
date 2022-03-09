@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <table class="table">
       <thead>
         <tr>
@@ -58,7 +58,7 @@ export default {
         return "data saknas"
       }
       postfix = postfix ? postfix : ''
-      return `${value.toFixed(2)} ${postfix}`;
+      return `${value.toFixed(0)} ${postfix}`;
     },
     async one_year_sort() {
       this.data = json.filter(one_year_filter).sort(one_year_sort).slice(0, items_to_show);

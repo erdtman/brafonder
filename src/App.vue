@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>brafonder.se</h1>
+    <h1 class="title">brafonder.se</h1>
     <header class="navbar">
       <section class="navbar-section"></section>
       <section class="navbar-center">

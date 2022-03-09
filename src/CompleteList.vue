@@ -19,23 +19,23 @@
         <colgroup span="6"></colgroup>
         <tr>
           <td rowspan="3"></td>
-          <th colspan="4" scope="colgroup">10 år</th>
-          <th colspan="4" scope="colgroup">5 år</th>
-          <th colspan="4" scope="colgroup">1 år</th>
+          <th colspan="4" scope="colgroup" class="years">10 år</th>
+          <th colspan="4" scope="colgroup" class="years">5 år</th>
+          <th colspan="4" scope="colgroup" class="years">1 år</th>
         </tr>
         <tr>
           <th rowspan="2" scope="col"><button v-on:click="sort('ten_median')" class="btn" v-bind:class="{ active: active === 'ten_median' }">Median </button></th>
           <th rowspan="2" scope="col"><button v-on:click="sort('ten_average')" class="btn" v-bind:class="{ active: active === 'ten_average' }">Medel</button></th>
-          <th rowspan="2" scope="col">Datapunkter</th>
-          <th rowspan="2" scope="col">Standardavvikelse</th>
+          <th rowspan="2" scope="col">Data- punkter</th>
+          <th rowspan="2" scope="col">Standard- avvikelse</th>
           <th rowspan="2" scope="col"><button v-on:click="sort('five_median')" class="btn" v-bind:class="{ active: active === 'five_median' }">Median</button></th>
           <th rowspan="2" scope="col"><button v-on:click="sort('five_average')" class="btn" v-bind:class="{ active: active === 'five_average' }">Medel</button></th>
-          <th rowspan="2" scope="col">Datapunkter</th>
-          <th rowspan="2" scope="col">Standardavvikelse</th>
+          <th rowspan="2" scope="col">Data- punkter</th>
+          <th rowspan="2" scope="col">Standard- avvikelse</th>
           <th rowspan="2" scope="col"><button v-on:click="sort('one_median')" class="btn" v-bind:class="{ active: active === 'one_median' }">Median</button></th>
           <th rowspan="2" scope="col"><button v-on:click="sort('one_average')" class="btn" v-bind:class="{ active: active === 'one_average' }">Medel</button></th>
-          <th rowspan="2" scope="col">Datapunkter</th>
-          <th rowspan="2" scope="col">Standardavvikelse</th>
+          <th rowspan="2" scope="col">Data- punkter</th>
+          <th rowspan="2" scope="col">Standard- avvikelse</th>
 
         </tr>
       </thead>
@@ -125,7 +125,7 @@ export default {
         return "data saknas"
       }
       postfix = postfix ? postfix : ''
-      return `${value.toFixed(2)} ${postfix}`;
+      return `${value.toFixed(0)} ${postfix}`;
     },
     async sort(active) {
       this.active = active;
