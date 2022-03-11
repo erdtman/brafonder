@@ -14,7 +14,9 @@
           Bakgrund
         </button>
       </section>
-      <section class="navbar-section"></section>
+      <section class="navbar-section">
+
+      </section>
     </header>
     <SimpleList v-if="active === 'simple'" />
     <CompleteList v-if="active === 'complete'" />

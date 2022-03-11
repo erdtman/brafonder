@@ -1,3 +1,7 @@
+link {
+    cursor: pointer;
+}
+
 h1.title {
     background: #188ab8;
     margin-bottom: 0;

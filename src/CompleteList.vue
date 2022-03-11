@@ -1,16 +1,5 @@
 <template>
   <div class="container">
-    <form class="form-horizontal">
-      <div class="form-group">
-        <div class="col-3 col-sm-12"></div>
-        <div class="col-2">
-          <label class="form-label" for="min_periods">Minsta antal datapunkter:</label>
-        </div>
-        <div class="col-3 col-sm-12">
-          <input class="form-input" type="number" v-model="periods" id="min_periods" v-on:change="periods_change">
-        </div>
-      </div>
-    </form>
     <table class="table table-scroll">
 
       <thead>
@@ -24,17 +13,17 @@
           <th colspan="4" scope="colgroup" class="years">1 år</th>
         </tr>
         <tr>
-          <th rowspan="2" scope="col"><button v-on:click="sort('ten_median')" class="btn" v-bind:class="{ active: active === 'ten_median' }">Median </button></th>
+          <th rowspan="2" scope="col"><button v-on:click="sort('ten_median')" class="btn" v-bind:class="{ active: active === 'ten_median' }">Median</button></th>
           <th rowspan="2" scope="col"><button v-on:click="sort('ten_average')" class="btn" v-bind:class="{ active: active === 'ten_average' }">Medel</button></th>
-          <th rowspan="2" scope="col">Data- punkter</th>
+          <th rowspan="2" scope="col"><a class="link" v-on:click="open_datapoint_settings()">Data- punkter</a></th>
           <th rowspan="2" scope="col">Standard- avvikelse</th>
           <th rowspan="2" scope="col"><button v-on:click="sort('five_median')" class="btn" v-bind:class="{ active: active === 'five_median' }">Median</button></th>
           <th rowspan="2" scope="col"><button v-on:click="sort('five_average')" class="btn" v-bind:class="{ active: active === 'five_average' }">Medel</button></th>
-          <th rowspan="2" scope="col">Data- punkter</th>
+          <th rowspan="2" scope="col"><a class="link" v-on:click="open_datapoint_settings()">Data- punkter</a></th>
           <th rowspan="2" scope="col">Standard- avvikelse</th>
           <th rowspan="2" scope="col"><button v-on:click="sort('one_median')" class="btn" v-bind:class="{ active: active === 'one_median' }">Median</button></th>
           <th rowspan="2" scope="col"><button v-on:click="sort('one_average')" class="btn" v-bind:class="{ active: active === 'one_average' }">Medel</button></th>
-          <th rowspan="2" scope="col">Data- punkter</th>
+          <th rowspan="2" scope="col"><a class="link" v-on:click="open_datapoint_settings()">Data- punkter</a></th>
           <th rowspan="2" scope="col">Standard- avvikelse</th>
 
         </tr>
@@ -62,12 +51,39 @@
         </tr>
       </tbody>
     </table>
+
+    <div class="modal modal-sm" v-bind:class="{ active: datapoint_settings_open }">
+      <div class="modal-overlay"></div>
+      <div class="modal-container">
+        <div class="modal-header">
+          <button class="btn btn-clear float-right close-modal" v-on:click="close_datapoint_settings()"></button>
+          <div class="modal-title">Datapunktsfilter</div>
+        </div>
+        <div class="modal-body">
+          <div class="content">
+            <form class="form-horizontal">
+              <div class="form-group">
+                <div class="col-9">
+                  <label class="form-label" for="min_periods">Minsta antal datapunkter:</label>
+                </div>
+                <div class="col-3">
+                  <input class="form-input" type="number" v-model="periods" id="min_periods">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary close-modal" v-on:click="save_periods()">Spara</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import json from "./data/fundDataAll.json";
-const items_to_show = 100;
+const items_to_show = 200;
 
 const one_year_median_sort = (a, b) => b.one_year.median - a.one_year.median;
 const five_year_median_sort = (a, b) => b.five_years.median - a.five_years.median;
@@ -115,7 +131,8 @@ export default {
     return {
       data: updateData(five_year_filter(0), ten_year_median_sort),
       active: "ten_median",
-      periods: 0
+      periods: 0,
+      datapoint_settings_open: false
     };
   },
 
@@ -131,11 +148,19 @@ export default {
       this.active = active;
       this.data = updaters[active](this.periods);
     },
-    async periods_change() {
+    async close_datapoint_settings() {
+      this.datapoint_settings_open = false;
+    },
+    async open_datapoint_settings() {
+      this.datapoint_settings_open = true;
+    },
+    async save_periods() {
       this.periods = this.periods > 167 ? 167 : this.periods;
       this.periods = this.periods < 0 ? 0 : this.periods;
 
       this.data = updaters[this.active](this.periods);
+
+      this.close_datapoint_settings();
     },
     async is_active(label) {
       return label === this.active;
