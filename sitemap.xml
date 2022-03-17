@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://erdtman.github.io/brafonder</loc>
+        <loc>https://brafonder.se</loc>
         <lastmod>2021-12-31</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://erdtman.github.io/brafonder/#simple</loc>
+        <loc>https://brafonder.se/#simple</loc>
         <lastmod>2021-12-31</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://erdtman.github.io/brafonder/#complete</loc>
+        <loc>https://brafonder.se#complete</loc>
         <lastmod>2021-12-31</lastmod>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://erdtman.github.io/brafonder/#background</loc>
+        <loc>https://brafonder.se/#background</loc>
         <lastmod>2021-12-31</lastmod>
         <changefreq>monthly</changefreq>
     </url>
