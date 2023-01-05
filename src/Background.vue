@@ -15,7 +15,7 @@
     <h3>Varifrån kommer datan?</h3>
     <p>Jag har laddat ner den från Avanzas publika sida, de har inget officiet API så jag har helt enkelt kollat vad webbläsaren gör och imiterat det, koden för nedladdning av data finns tillgänglig <a target="_blank" href="https://github.com/erdtman/brafonder/tree/master/read_data_src">här</a>.</p>
     <h3 class="background">Hur ofta uppdaterar du datan?</h3>
-    <p>Målet är göra en uppdatering en gång om året, då har det tillkommit 12 datapunkter vilket kanske kan göra skillnad för resultatet. Men under de senaste 3 åren har det inte skett några större förändringar.</p>
+    <p>Målet är göra en uppdatering en gång om året, då har det tillkommit 12 datapunkter vilket kanske kan göra skillnad för resultatet. Uppdaterat med data fram till 2022-12-31.</p>
     <h3 class="background">Är avkastningen här före eller efter fondavgifter?</h3>
     <p>Som jag förstår det från <a target="_blank" href="https://www.avanza.se/lar-dig-mer/avanza-akademin/fonder/vilka-avgifter-har-fonder.html">avanzas hemsida</a> så är datan efter avgifter är dragna. Dvs siffran du ser här är den avkastning som du faktiskt skulle ha fått.</p>
     <h2 class="background">Kontakt</h2>

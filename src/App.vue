@@ -4,15 +4,9 @@
     <header class="navbar">
       <section class="navbar-section"></section>
       <section class="navbar-center">
-        <button v-on:click="goto_simple" class="btn" v-bind:class="{ active: active === 'simple' }" style="margin: 10px; width: 100px;">
-          Enkel
-        </button>
-        <button v-on:click="goto_complete" class="btn" v-bind:class="{ active: active === 'complete' }" style="margin: 10px; width: 100px;">
-          Komplett
-        </button>
-        <button v-on:click="goto_background" class="btn" v-bind:class="{ active: active === 'backgroud' }" style="margin: 10px; width: 100px;">
-          Bakgrund
-        </button>
+        <a v-on:click="goto_simple" class="btn" v-bind:class="{ active: active === 'simple' }" style="margin: 10px; width: 100px;">Enkel</a>
+        <a v-on:click="goto_complete" class="btn" v-bind:class="{ active: active === 'complete' }" style="margin: 10px; width: 100px;">Komplett</a>
+        <a v-on:click="goto_background" class="btn" v-bind:class="{ active: active === 'backgroud' }" style="margin: 10px; width: 100px;">Bakgrund</a>
       </section>
       <section class="navbar-section">
 

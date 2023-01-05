@@ -78,7 +78,7 @@ async function  getOverPeriod(dataSerie, id, period, _startYear) {
 
 async function get(id) {
     const startYear = 1998;
-    const response = await axios.get(`https://www.avanza.se/_api/fund-guide/chart/${id}/${startYear}-01-01/2021-12-31`);
+    const response = await axios.get(`https://www.avanza.se/_api/fund-guide/chart/${id}/${startYear}-01-01/2022-12-31`);
 
     const dataSerie = response.data.dataSerie;
     return {
@@ -113,7 +113,8 @@ function toString(item) {
 
 jsonfile.readFile('output/funds.json', async (err, funds) => {
     const result = []
-    for (let index = 1000; index < funds.length; index++) {
+    console.log("start");
+    for (let index = 1100; index < funds.length; index++) {
         try {
             const filename = `output/json/${index}.json`
             if(fs.existsSync(filename)) {
