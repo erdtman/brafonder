@@ -77,8 +77,9 @@ async function  getOverPeriod(dataSerie, id, period, _startYear) {
 }
 
 async function get(id) {
-    const startYear = 1998;
-    const response = await axios.get(`https://www.avanza.se/_api/fund-guide/chart/${id}/${startYear}-01-01/2022-12-31`);
+    const startYear = 1998; // TODO adjust start year
+    const endDate = "2023-12-31"; // TODO adjust end date
+    const response = await axios.get(`https://www.avanza.se/_api/fund-guide/chart/${id}/${startYear}-01-01/${endDate}`);
 
     const dataSerie = response.data.dataSerie;
     return {
@@ -93,7 +94,6 @@ async function get(id) {
 
 function toString(item) {
     return [
-
         item.name,
 
         item.one_years.periods,
@@ -111,14 +111,15 @@ function toString(item) {
     ].join(',')
 }
 
-jsonfile.readFile('output/funds.json', async (err, funds) => {
+jsonfile.readFile('output/fundsSmall.json', async (err, funds) => { // TODO runs from current dir
     const result = []
     console.log("start");
-    for (let index = 1100; index < funds.length; index++) {
+    for (let index = 0; index < funds.length; index++) { // TODO change start index here when running multiple instances in paralell
         try {
             const filename = `output/json/${index}.json`
             if(fs.existsSync(filename)) {
-                return
+                console.log("Early exit");
+                return // exit someone is working on the next up funds
             }
             const id = funds[index];
             const fund = await get(id);

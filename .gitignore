@@ -1,2 +1,4 @@
 node_modules
 .DS_Store
+read_data_src/output/
+
