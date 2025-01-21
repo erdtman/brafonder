@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+
     <table class="table table-scroll">
 
       <thead>
@@ -7,7 +8,7 @@
         <colgroup span="6"></colgroup>
         <colgroup span="6"></colgroup>
         <tr>
-          <td rowspan="3"></td>
+          <td rowspan="3"><input type="input" id="filter" class="filter" placeholder="Sök fond" v-model="filter_string"></td>
           <th colspan="4" scope="colgroup" class="years">10 år</th>
           <th colspan="4" scope="colgroup" class="years">5 år</th>
           <th colspan="4" scope="colgroup" class="years">1 år</th>
@@ -97,31 +98,35 @@ const one_year_filter = (limit) => { return (value) => value.one_year.periods > 
 const five_year_filter = (limit) => { return (value) => value.five_years.periods > limit};
 const ten_year_filter = (limit) => { return (value) => value.ten_years.periods > limit};
 
-function updateData(filter, sort) {
-  return json
-        .filter(filter)
-        .sort(sort)
-        .slice(0, items_to_show);
+
+function updateData(filter, sort, filter_string) {
+  filter_string = filter_string ? filter_string : "";
+  const search_filter = (value) => value.name.toLowerCase().includes(filter_string.toLowerCase())
+  const step1 = json.filter(filter);
+  const step2 = step1.filter(search_filter);
+  const step3 = step2.sort(sort);
+  const step4 = step3.slice(0, items_to_show);
+  return step4;
 }
 
 const updaters = {
-  one_median(periods) {
-    return updateData(one_year_filter(periods), one_year_median_sort);
+  one_median(periods, filter) {
+    return updateData(one_year_filter(periods), one_year_median_sort, filter);
   },
-  one_average(periods) {
-    return updateData(one_year_filter(periods), one_year_average_sort);
+  one_average(periods, filter) {
+    return updateData(one_year_filter(periods), one_year_average_sort, filter);
   },
-  five_median(periods) {
-    return updateData(five_year_filter(periods), five_year_median_sort);
+  five_median(periods, filter) {
+    return updateData(five_year_filter(periods), five_year_median_sort, filter);
   },
-  five_average(periods) {
-    return updateData(five_year_filter(periods), five_year_average_sort);
+  five_average(periods, filter) {
+    return updateData(five_year_filter(periods), five_year_average_sort, filter);
   },
-  ten_median(periods) {
-    return updateData(ten_year_filter(periods), ten_year_median_sort);
+  ten_median(periods, filter) {
+    return updateData(ten_year_filter(periods), ten_year_median_sort, filter);
   },
-  ten_average(periods) {
-    return updateData(ten_year_filter(periods), ten_year_average_sort);
+  ten_average(periods, filter) {
+    return updateData(ten_year_filter(periods), ten_year_average_sort, filter);
   }
 }
 
@@ -129,13 +134,20 @@ export default {
   components: {},
   data() {
     return {
-      data: updateData(five_year_filter(0), ten_year_median_sort),
+      data: updateData(five_year_filter(0), ten_year_median_sort, ""),
       active: "ten_median",
       periods: 0,
-      datapoint_settings_open: false
+      datapoint_settings_open: false,
+      filter_string: ''
     };
   },
-
+  watch: {
+    filter_string(val, oldVal){
+      if (val !== oldVal) {
+        this.data = updaters[this.active](this.periods, this.filter_string);
+      }
+    }
+  },
   methods: {
     getValueToDisplay(value, postfix) {
       if (value === undefined || value === -99999) {
@@ -146,7 +158,7 @@ export default {
     },
     async sort(active) {
       this.active = active;
-      this.data = updaters[active](this.periods);
+      this.data = updaters[active](this.periods, this.filter_string);
     },
     async close_datapoint_settings() {
       this.datapoint_settings_open = false;
@@ -158,7 +170,7 @@ export default {
       this.periods = this.periods > 167 ? 167 : this.periods;
       this.periods = this.periods < 0 ? 0 : this.periods;
 
-      this.data = updaters[this.active](this.periods);
+      this.data = updaters[this.active](this.periods, this.filter_string);
 
       this.close_datapoint_settings();
     },
