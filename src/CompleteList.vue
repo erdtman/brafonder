@@ -167,7 +167,7 @@ export default {
       this.datapoint_settings_open = true;
     },
     async save_periods() {
-      this.periods = this.periods > 167 ? 167 : this.periods;
+      this.periods = this.periods > 204 ? 204 : this.periods;
       this.periods = this.periods < 0 ? 0 : this.periods;
 
       this.data = updaters[this.active](this.periods, this.filter_string);

@@ -3,6 +3,7 @@ const jsonfile = require('jsonfile');
 const moment = require('moment');
 const {average, median, regress, padWithZero, std} = require('./utils.js');
 const fs = require('fs');
+const { log } = require('console');
 
 
 function getFirstInYear(dataSerie, year, month=0) {
@@ -26,13 +27,19 @@ function getFirstInYear(dataSerie, year, month=0) {
 }
 
 function getFirstYearAndMonth(dataSerie) {
+    console.log(dataSerie);
+
     for (let index = 0; index < dataSerie.length; index++) {
         const raw_time = dataSerie[index];
+        console.log(raw_time);
+
 
         if(raw_time.y === null || raw_time.y === 0) {
             continue;
         }
         const time = moment(raw_time.x);
+        console.log(time);
+
         return {
             firstYear: time.year(),
             firstMonth: time.month()};
@@ -43,6 +50,8 @@ async function  getOverPeriod(dataSerie, id, period, _startYear) {
     console.log(`Get id: ${id}, period: ${period}`);
     const values = [];
     let periods = 0;
+
+    console.log(dataSerie);
 
     const {firstYear, firstMonth} = getFirstYearAndMonth(dataSerie)
 
@@ -78,7 +87,7 @@ async function  getOverPeriod(dataSerie, id, period, _startYear) {
 
 async function get(id) {
     const startYear = 1998; // TODO adjust start year
-    const endDate = "2024-06-30"; // TODO adjust end date
+    const endDate = "2024-12-31"; // TODO adjust end date
     const response = await axios.get(`https://www.avanza.se/_api/fund-guide/chart/${id}/${startYear}-01-01/${endDate}`);
 
     const dataSerie = response.data.dataSerie;
@@ -111,21 +120,23 @@ function toString(item) {
     ].join(',')
 }
 
-jsonfile.readFile('output/funds.json', async (err, funds) => { // TODO runs from current dir
+jsonfile.readFile('output/fundsSmall.json', async (err, funds) => { // TODO runs from current dir
     const result = []
     console.log("start");
-    for (let index = 650; index < funds.length; index++) { // TODO change start index here when running multiple instances in paralell
+    for (let index = 0; index < funds.length; index++) { // TODO change start index here when running multiple instances in paralell
         try {
-            const filename = `output/json/${index}.json`
+
+            const filename = `${index}.json`
             if(fs.existsSync(filename)) {
-                console.log("Early exit");
-                return // exit someone is working on the next up funds
+                //console.log("Early exit");
+                continue // exit someone is working on the next up funds
             }
             const id = funds[index];
             const fund = await get(id);
             console.log(fund);
             fs.writeFileSync(filename, JSON.stringify(fund, null, 1));
         } catch (error) {
+            console.log(`index: ${index}, id: ${funds[index]}`);
             console.log("ERROR");
             console.log(error);
         }
