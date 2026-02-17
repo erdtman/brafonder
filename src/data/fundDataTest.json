@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "1141907",
+    "name": "Captor Scilla Global Equity B",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1141907",
+    "one_year": {
+      "average": 6.8838453013399015,
+      "median": 8.872494549729876,
+      "periods": 60,
+      "std": 11.945900702554464
+    },
+    "five_years": {
+      "average": 34.030250849034395,
+      "median": 33.91779767719072,
+      "periods": 12,
+      "std": 3.751792529736472
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1076398",
+    "name": "Handelsbanken Global Högutd (A1 SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1076398",
+    "one_year": {
+      "average": 10.443512485330187,
+      "median": 9.74909451585388,
+      "periods": 48,
+      "std": 7.706626434690465
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1375940",
+    "name": "Schroder ISF Nordic Smlr Coms A EUR Acc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1375940",
+    "one_year": {
+      "average": 7.278696393215893,
+      "median": 3.715199754509082,
+      "periods": 24,
+      "std": 17.708126865138855
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1838598",
+    "name": "SEB Globala Hållbara Bolag A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1838598",
+    "one_year": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "717",
+    "name": "BGF European A2",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/717",
+    "one_year": {
+      "average": 7.818956791341754,
+      "median": 9.807767625083667,
+      "periods": 312,
+      "std": 17.72741404584474
+    },
+    "five_years": {
+      "average": 36.513960356486166,
+      "median": 40.67721293502884,
+      "periods": 264,
+      "std": 36.044509175387006
+    },
+    "ten_years": {
+      "average": 85.32408042267905,
+      "median": 92.67073995269942,
+      "periods": 204,
+      "std": 57.16562303870603
+    }
+  },
+  {
+    "id": "676",
+    "name": "SEB Europafond",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/676",
+    "one_year": {
+      "average": 6.831884102306229,
+      "median": 10.539894084179267,
+      "periods": 312,
+      "std": 18.25488332282533
+    },
+    "five_years": {
+      "average": 28.104929827860833,
+      "median": 31.781674637785223,
+      "periods": 264,
+      "std": 37.72316165913994
+    },
+    "ten_years": {
+      "average": 60.03018822265373,
+      "median": 61.49676282184498,
+      "periods": 204,
+      "std": 51.40828233037092
+    }
+  },
+  {
+    "id": "334675",
+    "name": "BSF Dynamic Diversified Growth A2 SEK H",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/334675",
+    "one_year": {
+      "average": 1.598256819158253,
+      "median": 2.542062134603773,
+      "periods": 144,
+      "std": 9.185959706462741
+    },
+    "five_years": {
+      "average": 7.507959989237981,
+      "median": 8.061405002137741,
+      "periods": 96,
+      "std": 11.367480972415704
+    },
+    "ten_years": {
+      "average": 12.603198357918425,
+      "median": 12.806873817896026,
+      "periods": 36,
+      "std": 17.131383708009448
+    }
+  },
+  {
+    "id": "2545",
+    "name": "SEB Corporate Bond Fund SEK C (SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2545",
+    "one_year": {
+      "average": 2.823866849726212,
+      "median": 2.8171132487752364,
+      "periods": 276,
+      "std": 6.629038978097027
+    },
+    "five_years": {
+      "average": 15.010829418670022,
+      "median": 13.323171957614676,
+      "periods": 228,
+      "std": 14.0003540802998
+    },
+    "ten_years": {
+      "average": 38.12008945186393,
+      "median": 43.37829182204406,
+      "periods": 168,
+      "std": 16.376868739859052
+    }
+  },
+  {
+    "id": "476838",
+    "name": "Ålandsbanken Kapitalförvaltning SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/476838",
+    "one_year": {
+      "average": 5.447768124869681,
+      "median": 4.652247700381256,
+      "periods": 120,
+      "std": 7.309449037492723
+    },
+    "five_years": {
+      "average": 23.643653074227807,
+      "median": 22.91202951331463,
+      "periods": 72,
+      "std": 9.519110967296546
+    },
+    "ten_years": {
+      "average": 64.37444966576176,
+      "median": 65.26422703847581,
+      "periods": 12,
+      "std": 3.079197328549343
+    }
+  },
+  {
+    "id": "880673",
+    "name": "Danske Invest Sverige Småbolag SA SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/880673",
+    "one_year": {
+      "average": 17.848649549038193,
+      "median": 14.35856692286788,
+      "periods": 72,
+      "std": 30.694381905233335
+    },
+    "five_years": {
+      "average": 89.95089821650708,
+      "median": 89.23,
+      "periods": 24,
+      "std": 14.36337468024227
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1607800",
+    "name": "SEB AI - Artificial Intellig C SEK - Lux",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1607800",
+    "one_year": {
+      "average": 33.04551395298414,
+      "median": 31.25221542141822,
+      "periods": 12,
+      "std": 12.901037236798485
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "476475",
+    "name": "Evli Emerging Markets Credit B",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/476475",
+    "one_year": {
+      "average": 3.778580689273337,
+      "median": 4.3311680921581335,
+      "periods": 132,
+      "std": 6.083698691077728
+    },
+    "five_years": {
+      "average": 17.341617573233847,
+      "median": 19.50841132426992,
+      "periods": 84,
+      "std": 10.358804049598337
+    },
+    "ten_years": {
+      "average": 37.84033652044553,
+      "median": 38.068478653754354,
+      "periods": 24,
+      "std": 3.121812158468304
+    }
+  },
+  {
+    "id": "1106850",
+    "name": "Aktie-Ansvar Räntestrategi",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1106850",
+    "one_year": {
+      "average": 2.743971789627959,
+      "median": 2.5325884180676375,
+      "periods": 48,
+      "std": 3.507001423031813
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1840",
+    "name": "SEB Europa Indexnära C EUR - Lux",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1840",
+    "one_year": {
+      "average": 6.478969942664919,
+      "median": 9.845564284731939,
+      "periods": 312,
+      "std": 17.667404104860754
+    },
+    "five_years": {
+      "average": 28.488315005329945,
+      "median": 38.0077507234259,
+      "periods": 264,
+      "std": 39.078152411862334
+    },
+    "ten_years": {
+      "average": 61.09874202548036,
+      "median": 60.27061678596695,
+      "periods": 204,
+      "std": 58.39666798072456
+    }
+  },
+  {
+    "id": "936",
+    "name": "Swedbank Robur Small Cap Europe A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/936",
+    "one_year": {
+      "average": 10.437084268786142,
+      "median": 13.621265250394426,
+      "periods": 312,
+      "std": 25.827272724960103
+    },
+    "five_years": {
+      "average": 53.097237733743185,
+      "median": 41.02435180225784,
+      "periods": 264,
+      "std": 57.362260096171205
+    },
+    "ten_years": {
+      "average": 124.22524406035313,
+      "median": 127.77107499999998,
+      "periods": 204,
+      "std": 74.86071810947023
+    }
+  },
+  {
+    "id": "187208",
+    "name": "Caprifol Nordiska Fonden",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/187208",
+    "one_year": {
+      "average": 16.345422645452068,
+      "median": 16.181413489897714,
+      "periods": 180,
+      "std": 17.25699311513535
+    },
+    "five_years": {
+      "average": 104.31882586515228,
+      "median": 94.74074405547796,
+      "periods": 132,
+      "std": 40.70787455954356
+    },
+    "ten_years": {
+      "average": 299.6884421100229,
+      "median": 286.4351538606411,
+      "periods": 72,
+      "std": 69.22698897159803
+    }
+  },
+  {
+    "id": "192934",
+    "name": "Fondita Global Small Cap B",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/192934",
+    "one_year": {
+      "average": 10.670972686149051,
+      "median": 12.376623315404093,
+      "periods": 180,
+      "std": 16.003451118078438
+    },
+    "five_years": {
+      "average": 66.62352126579727,
+      "median": 68.88721587549827,
+      "periods": 132,
+      "std": 39.004831768595416
+    },
+    "ten_years": {
+      "average": 168.24728493566303,
+      "median": 163.48940725332093,
+      "periods": 72,
+      "std": 56.25895218327229
+    }
+  },
+  {
+    "id": "1320939",
+    "name": "Fidelity Sustainable Euroz Eq A-Inc-EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1320939",
+    "one_year": {
+      "average": 8.521443485975233,
+      "median": 9.37103759726735,
+      "periods": 36,
+      "std": 12.146937563496461
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "290798",
+    "name": "Allianz Europe Equity SRI A EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/290798",
+    "one_year": {
+      "average": 7.222924658899788,
+      "median": 8.162152921950312,
+      "periods": 168,
+      "std": 13.355690247834385
+    },
+    "five_years": {
+      "average": 45.68527450018539,
+      "median": 39.80011750932887,
+      "periods": 120,
+      "std": 22.92971340050089
+    },
+    "ten_years": {
+      "average": 109.41499001344204,
+      "median": 109.30901526917648,
+      "periods": 60,
+      "std": 29.216086028306666
+    }
+  },
+  {
+    "id": "2410",
+    "name": "Templeton Glb Climate Change A (acc) EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2410",
+    "one_year": {
+      "average": 6.722452638604519,
+      "median": 8.016594241718835,
+      "periods": 276,
+      "std": 17.02370072116401
+    },
+    "five_years": {
+      "average": 39.36989170316017,
+      "median": 50.275728218716715,
+      "periods": 228,
+      "std": 38.21783311043977
+    },
+    "ten_years": {
+      "average": 90.82862551296027,
+      "median": 75.3244099536758,
+      "periods": 168,
+      "std": 70.26467422616706
+    }
+  },
+  {
+    "id": "1508177",
+    "name": "Fidelity Sust Glb Div Pl A Acc USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1508177",
+    "one_year": {
+      "average": 11.525693177675949,
+      "median": 10.869808553551273,
+      "periods": 36,
+      "std": 5.248884578350793
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "602915",
+    "name": "Carnegie Global Quality Companies A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/602915",
+    "one_year": {
+      "average": 11.427004104977144,
+      "median": 12.259880737415184,
+      "periods": 108,
+      "std": 9.048393686271282
+    },
+    "five_years": {
+      "average": 74.92497262829373,
+      "median": 76.53074681310223,
+      "periods": 60,
+      "std": 11.62064011607963
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1335000",
+    "name": "Fidelity Sus Europ Slr Cmp A Acc EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1335000",
+    "one_year": {
+      "average": -2.157239588564749,
+      "median": -1.7486343237098345,
+      "periods": 25,
+      "std": 13.486867651597322
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "289971",
+    "name": "CT (Lux) Enhanced Cmdts AU",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/289971",
+    "one_year": {
+      "average": 2.6031491242500215,
+      "median": -1.5438862909090334,
+      "periods": 168,
+      "std": 18.097972839993
+    },
+    "five_years": {
+      "average": 3.647710066619274,
+      "median": -15.266388189118931,
+      "periods": 120,
+      "std": 37.65222699969929
+    },
+    "ten_years": {
+      "average": -1.115311905142358,
+      "median": 11.711754642512458,
+      "periods": 60,
+      "std": 26.111286456904857
+    }
+  },
+  {
+    "id": "650495",
+    "name": "GAM Multistock EM Equity USD B",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/650495",
+    "one_year": {
+      "average": 7.94090850401414,
+      "median": 6.981845694538222,
+      "periods": 144,
+      "std": 15.083815537343318
+    },
+    "five_years": {
+      "average": 45.43641239981226,
+      "median": 49.52586232535815,
+      "periods": 96,
+      "std": 28.695081540316597
+    },
+    "ten_years": {
+      "average": 92.87467296941712,
+      "median": 93.28087552421593,
+      "periods": 36,
+      "std": 12.215438390177995
+    }
+  },
+  {
+    "id": "913953",
+    "name": "Handelsbanken Global Selektiv (A1 SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/913953",
+    "one_year": {
+      "average": 12.407928943032601,
+      "median": 12.051785386093105,
+      "periods": 120,
+      "std": 10.470407287612163
+    },
+    "five_years": {
+      "average": 74.03069131385558,
+      "median": 72.45201998651352,
+      "periods": 72,
+      "std": 15.877916837093744
+    },
+    "ten_years": {
+      "average": 204.5509456383876,
+      "median": 205.81329216769583,
+      "periods": 12,
+      "std": 11.678944794850405
+    }
+  },
+  {
+    "id": "741453",
+    "name": "Allianz Global Equity Insights A EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/741453",
+    "one_year": {
+      "average": 12.37180386231117,
+      "median": 10.209189144353326,
+      "periods": 264,
+      "std": 18.626097003586157
+    },
+    "five_years": {
+      "average": 74.56076276998785,
+      "median": 79.09055510537304,
+      "periods": 216,
+      "std": 44.52563867843882
+    },
+    "ten_years": {
+      "average": 219.80001681609997,
+      "median": 210.40637089273653,
+      "periods": 156,
+      "std": 104.93631611085188
+    }
+  },
+  {
+    "id": "1803536",
+    "name": "Intensity Crafted By Ruth A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1803536",
+    "one_year": {
+      "average": 10.438351112352997,
+      "median": 10.500861494431488,
+      "periods": 192,
+      "std": 13.800301477936552
+    },
+    "five_years": {
+      "average": 67.06534092685504,
+      "median": 67.39326402751347,
+      "periods": 144,
+      "std": 22.58353922355358
+    },
+    "ten_years": {
+      "average": 182.2836669528643,
+      "median": 182.04534286927964,
+      "periods": 84,
+      "std": 37.13546205357634
+    }
+  },
+  {
+    "id": "1158131",
+    "name": "Thematica - Future Mobility Retl SEK Acc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1158131",
+    "one_year": {
+      "average": 30.548356713548365,
+      "median": 11.735,
+      "periods": 60,
+      "std": 67.26170713101733
+    },
+    "five_years": {
+      "average": 99.15813238629018,
+      "median": 95.43030787927893,
+      "periods": 12,
+      "std": 17.925464836011887
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "2481",
+    "name": "Fidelity Global Bond A-Dis-USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2481",
+    "one_year": {
+      "average": 3.8347997898407877,
+      "median": 2.059858668523611,
+      "periods": 312,
+      "std": 7.636387027581778
+    },
+    "five_years": {
+      "average": 19.43640363765494,
+      "median": 20.068585798214386,
+      "periods": 264,
+      "std": 12.247498678452555
+    },
+    "ten_years": {
+      "average": 45.13191113129054,
+      "median": 46.295563375563354,
+      "periods": 204,
+      "std": 14.541230624183838
+    }
+  },
+  {
+    "id": "1547322",
+    "name": "DNB India A (SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1547322",
+    "one_year": {
+      "average": 12.49788783018448,
+      "median": 6.666115862795279,
+      "periods": 204,
+      "std": 32.29452259083575
+    },
+    "five_years": {
+      "average": 53.743780637552014,
+      "median": 56.61117505234566,
+      "periods": 156,
+      "std": 38.064891077965626
+    },
+    "ten_years": {
+      "average": 152.3745543969567,
+      "median": 141.7129551996136,
+      "periods": 96,
+      "std": 82.32969702210069
+    }
+  },
+  {
+    "id": "164908",
+    "name": "SEB Global High Yield C H-SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/164908",
+    "one_year": {
+      "average": 4.492237489881447,
+      "median": 4.99403938580109,
+      "periods": 180,
+      "std": 7.337870343743945
+    },
+    "five_years": {
+      "average": 19.2585838613244,
+      "median": 14.777812248342164,
+      "periods": 132,
+      "std": 19.594599598829635
+    },
+    "ten_years": {
+      "average": 39.409341193277534,
+      "median": 43.23162317711536,
+      "periods": 72,
+      "std": 24.861823262510033
+    }
+  },
+  {
+    "id": "1506920",
+    "name": "DNB Health Care S",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1506920",
+    "one_year": {
+      "average": 8.660185051991013,
+      "median": 9.220142757197074,
+      "periods": 288,
+      "std": 17.422953817412548
+    },
+    "five_years": {
+      "average": 60.02399556528512,
+      "median": 57.015001878975546,
+      "periods": 240,
+      "std": 61.0199805755436
+    },
+    "ten_years": {
+      "average": 181.80493471984377,
+      "median": 177.09362340661187,
+      "periods": 180,
+      "std": 128.9051668270514
+    }
+  },
+  {
+    "id": "901673",
+    "name": "Handelsbanken Kortränta (A1 SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/901673",
+    "one_year": {
+      "average": 1.1684282712110265,
+      "median": 0.276427428267774,
+      "periods": 72,
+      "std": 1.9003569081617981
+    },
+    "five_years": {
+      "average": 4.594980798660959,
+      "median": 4.699481091590414,
+      "periods": 24,
+      "std": 2.806543953389905
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "483298",
+    "name": "Indecap Guide Tillväxtmarknadsfond C",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/483298",
+    "one_year": {
+      "average": 10.059615116441233,
+      "median": 10.793473713568543,
+      "periods": 12,
+      "std": 4.946929942343685
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "376665",
+    "name": "UBS(LUX) ES Glb HD Ss USD P-acc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/376665",
+    "one_year": {
+      "average": 12.710878759838238,
+      "median": 13.585349076869417,
+      "periods": 156,
+      "std": 11.3436266545736
+    },
+    "five_years": {
+      "average": 70.36334767580524,
+      "median": 63.86636342427294,
+      "periods": 108,
+      "std": 24.924058062367834
+    },
+    "ten_years": {
+      "average": 200.5426919006189,
+      "median": 203.7752881959381,
+      "periods": 48,
+      "std": 15.377885124459311
+    }
+  },
+  {
+    "id": "1276720",
+    "name": "ODIN Emerging Markets C SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1276720",
+    "one_year": {
+      "average": 7.254107558019271,
+      "median": 6.338845718514655,
+      "periods": 300,
+      "std": 17.77900061150661
+    },
+    "five_years": {
+      "average": 40.537118659285554,
+      "median": 34.57936527220402,
+      "periods": 252,
+      "std": 36.45829337232803
+    },
+    "ten_years": {
+      "average": 83.96432051349832,
+      "median": 82.0084903536352,
+      "periods": 192,
+      "std": 34.397630278160605
+    }
+  },
+  {
+    "id": "350597",
+    "name": "Fidelity Global Corp Bd A-Acc-EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/350597",
+    "one_year": {
+      "average": 5.319386566240819,
+      "median": 3.6262269743329143,
+      "periods": 144,
+      "std": 8.278284524942183
+    },
+    "five_years": {
+      "average": 30.066243696146618,
+      "median": 28.00450235954217,
+      "periods": 96,
+      "std": 15.613660799203997
+    },
+    "ten_years": {
+      "average": 67.98894239818485,
+      "median": 67.61646398564851,
+      "periods": 36,
+      "std": 6.428215019506825
+    }
+  },
+  {
+    "id": "1661247",
+    "name": "BNP Paribas Sst Asia ExJpn Eq C SEK C",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1661247",
+    "one_year": {
+      "average": 6.550984468921006,
+      "median": 6.165658283611206,
+      "periods": 12,
+      "std": 8.192732250534023
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "721",
+    "name": "Pictet-Quest Europe Sust Eqs R EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/721",
+    "one_year": {
+      "average": 8.38484869106091,
+      "median": 10.036607560910873,
+      "periods": 264,
+      "std": 14.911931619671407
+    },
+    "five_years": {
+      "average": 39.88723229226861,
+      "median": 49.904149453022114,
+      "periods": 216,
+      "std": 36.37588759178607
+    },
+    "ten_years": {
+      "average": 90.46725143514338,
+      "median": 78.43778864340824,
+      "periods": 156,
+      "std": 51.49626303556966
+    }
+  },
+  {
+    "id": "1506",
+    "name": "Öhman Marknad USA A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1506",
+    "one_year": {
+      "average": 9.198010841312778,
+      "median": 10.815039743172147,
+      "periods": 300,
+      "std": 17.383638941294397
+    },
+    "five_years": {
+      "average": 57.39061117874017,
+      "median": 81.65598025956655,
+      "periods": 252,
+      "std": 64.14356448598146
+    },
+    "ten_years": {
+      "average": 172.83042411294016,
+      "median": 118.87813992876217,
+      "periods": 192,
+      "std": 164.60346044398972
+    }
+  },
+  {
+    "id": "1512",
+    "name": "Franklin US Opportunities A(acc)USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1512",
+    "one_year": {
+      "average": 8.65022491695273,
+      "median": 12.947978195653986,
+      "periods": 288,
+      "std": 21.886098945100546
+    },
+    "five_years": {
+      "average": 68.3720808288322,
+      "median": 84.41818734272792,
+      "periods": 240,
+      "std": 60.490018530339555
+    },
+    "ten_years": {
+      "average": 206.51387137587994,
+      "median": 167.11357250589384,
+      "periods": 180,
+      "std": 151.55209079577008
+    }
+  },
+  {
+    "id": "2143",
+    "name": "CT (Lux) Rspnb Glb Em Mkts Eq A Inc USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2143",
+    "one_year": {
+      "average": 7.878888465139249,
+      "median": 6.932635183112618,
+      "periods": 312,
+      "std": 22.068723239196263
+    },
+    "five_years": {
+      "average": 40.82488104293514,
+      "median": 32.320963485689575,
+      "periods": 264,
+      "std": 49.23102348960628
+    },
+    "ten_years": {
+      "average": 84.59306009996828,
+      "median": 81.30784325329856,
+      "periods": 204,
+      "std": 35.41505213847147
+    }
+  },
+  {
+    "id": "1335001",
+    "name": "Fidelity Sust Glb Eq Inc A-ACC-EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1335001",
+    "one_year": {
+      "average": 12.027056918312043,
+      "median": 12.423224694034955,
+      "periods": 84,
+      "std": 8.404042750610872
+    },
+    "five_years": {
+      "average": 68.38440527477154,
+      "median": 67.52701299393323,
+      "periods": 36,
+      "std": 8.245731383282038
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "972003",
+    "name": "Amundi Fds Euroland Equity A EUR C",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/972003",
+    "one_year": {
+      "average": 6.643482672141642,
+      "median": 9.940077509457176,
+      "periods": 288,
+      "std": 17.829401844693468
+    },
+    "five_years": {
+      "average": 37.746548973778815,
+      "median": 42.47067162350225,
+      "periods": 240,
+      "std": 36.0422025585518
+    },
+    "ten_years": {
+      "average": 85.82366329012672,
+      "median": 89.86473097969048,
+      "periods": 180,
+      "std": 57.5153215980798
+    }
+  },
+  {
+    "id": "522",
+    "name": "Fidelity Sust Cnsmr Brds A-Dis-EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/522",
+    "one_year": {
+      "average": 9.023183166193512,
+      "median": 11.027186077289333,
+      "periods": 288,
+      "std": 14.334891537819649
+    },
+    "five_years": {
+      "average": 61.52170973944378,
+      "median": 61.710611095231414,
+      "periods": 240,
+      "std": 38.367305256320144
+    },
+    "ten_years": {
+      "average": 176.87063627351924,
+      "median": 172.61506448852984,
+      "periods": 180,
+      "std": 90.15749617677817
+    }
+  },
+  {
+    "id": "1386016",
+    "name": "Allianz Dynamic Commodities A EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1386016",
+    "one_year": {
+      "average": -0.11911277266005518,
+      "median": -3.4745908686157305,
+      "periods": 120,
+      "std": 19.80829654368879
+    },
+    "five_years": {
+      "average": 4.66301418330244,
+      "median": 6.753001790927671,
+      "periods": 72,
+      "std": 28.00952376898385
+    },
+    "ten_years": {
+      "average": -17.543725830352752,
+      "median": -18.093728896998794,
+      "periods": 12,
+      "std": 6.24896600931496
+    }
+  },
+  {
+    "id": "29854",
+    "name": "Franklin Mutual European A EUR Acc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/29854",
+    "one_year": {
+      "average": 6.857106627990716,
+      "median": 10.00247803415127,
+      "periods": 276,
+      "std": 15.31322064848852
+    },
+    "five_years": {
+      "average": 33.024771842243695,
+      "median": 31.74983197457835,
+      "periods": 228,
+      "std": 30.295032909001478
+    },
+    "ten_years": {
+      "average": 65.87257109830419,
+      "median": 70.51408177765467,
+      "periods": 168,
+      "std": 25.45758390510337
+    }
+  },
+  {
+    "id": "1362",
+    "name": "Fidelity Latin America A-Dis-USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1362",
+    "one_year": {
+      "average": 10.587566415679595,
+      "median": 6.867670288461483,
+      "periods": 312,
+      "std": 29.44916596285074
+    },
+    "five_years": {
+      "average": 62.34522253895325,
+      "median": 22.122816434099164,
+      "periods": 264,
+      "std": 104.00461243554011
+    },
+    "ten_years": {
+      "average": 142.68372582354297,
+      "median": 60.67341155469087,
+      "periods": 204,
+      "std": 143.56118580843966
+    }
+  },
+  {
+    "id": "61548",
+    "name": "HSBC GIF Asia ex Japan Equity AC",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/61548",
+    "one_year": {
+      "average": 10.30560111169487,
+      "median": 8.842437397756768,
+      "periods": 252,
+      "std": 20.24205973018855
+    },
+    "five_years": {
+      "average": 46.73786465161959,
+      "median": 39.96163370989531,
+      "periods": 204,
+      "std": 37.794408458709974
+    },
+    "ten_years": {
+      "average": 105.43250397367929,
+      "median": 108.54712070716782,
+      "periods": 144,
+      "std": 34.18088621204687
+    }
+  },
+  {
+    "id": "441286",
+    "name": "HSBC GIF Frontier Markets AC",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/441286",
+    "one_year": {
+      "average": 14.415728784725284,
+      "median": 15.894669050897228,
+      "periods": 156,
+      "std": 17.04683917919432
+    },
+    "five_years": {
+      "average": 64.27763257035583,
+      "median": 56.5294490051288,
+      "periods": 108,
+      "std": 33.86854840640249
+    },
+    "ten_years": {
+      "average": 186.94555076049076,
+      "median": 189.89173320186177,
+      "periods": 48,
+      "std": 27.028059668742543
+    }
+  },
+  {
+    "id": "273830",
+    "name": "Norron Sustainable Preserve R SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/273830",
+    "one_year": {
+      "average": 2.233972436389094,
+      "median": 1.918170628719274,
+      "periods": 156,
+      "std": 3.000449767461763
+    },
+    "five_years": {
+      "average": 7.978356898475452,
+      "median": 7.589669707529223,
+      "periods": 108,
+      "std": 4.1555106295035
+    },
+    "ten_years": {
+      "average": 17.186676208949564,
+      "median": 15.245117657681972,
+      "periods": 48,
+      "std": 5.161405620223669
+    }
+  },
+  {
+    "id": "376316",
+    "name": "SKAGEN m2 A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/376316",
+    "one_year": {
+      "average": 8.272497583333063,
+      "median": 8.631073101225136,
+      "periods": 144,
+      "std": 14.834109131342197
+    },
+    "five_years": {
+      "average": 49.56336609225619,
+      "median": 56.258129731589825,
+      "periods": 96,
+      "std": 25.850358253680835
+    },
+    "ten_years": {
+      "average": 113.87395776672457,
+      "median": 112.13156049525554,
+      "periods": 36,
+      "std": 18.883949541866986
+    }
+  },
+  {
+    "id": "789174",
+    "name": "PLUS Mikrobolag Sverige Index",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/789174",
+    "one_year": {
+      "average": 8.77389952621533,
+      "median": 6.1605912405606285,
+      "periods": 84,
+      "std": 24.123340722558407
+    },
+    "five_years": {
+      "average": 62.328697670378915,
+      "median": 57.10950883561669,
+      "periods": 36,
+      "std": 27.352277330244306
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "596",
+    "name": "Barings Europa A USD Inc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/596",
+    "one_year": {
+      "average": 5.895951063861185,
+      "median": 8.407719957816166,
+      "periods": 312,
+      "std": 18.77696937901112
+    },
+    "five_years": {
+      "average": 26.705815784670847,
+      "median": 30.897072475583506,
+      "periods": 264,
+      "std": 40.700743457346654
+    },
+    "ten_years": {
+      "average": 61.96133161124096,
+      "median": 73.14421313542319,
+      "periods": 204,
+      "std": 52.50640498618888
+    }
+  },
+  {
+    "id": "1276719",
+    "name": "ODIN Norden C SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1276719",
+    "one_year": {
+      "average": 12.083667995057942,
+      "median": 11.022239122043697,
+      "periods": 312,
+      "std": 24.7226380659234
+    },
+    "five_years": {
+      "average": 75.24877688333531,
+      "median": 62.70861662361794,
+      "periods": 264,
+      "std": 77.3045088705958
+    },
+    "ten_years": {
+      "average": 145.07432775658285,
+      "median": 151.9170744905189,
+      "periods": 204,
+      "std": 61.587590521828744
+    }
+  },
+  {
+    "id": "713375",
+    "name": "CT (Lux) Rspnb Global Equity A Inc USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/713375",
+    "one_year": {
+      "average": 12.469129910170759,
+      "median": 12.182375260936242,
+      "periods": 168,
+      "std": 11.530618810237883
+    },
+    "five_years": {
+      "average": 88.07185485898337,
+      "median": 87.31833397519634,
+      "periods": 120,
+      "std": 18.88014162526266
+    },
+    "ten_years": {
+      "average": 252.1412524080009,
+      "median": 250.9144904536288,
+      "periods": 60,
+      "std": 38.80370529744209
+    }
+  },
+  {
+    "id": "455",
+    "name": "Franklin Biotechnology Discv A(acc)USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/455",
+    "one_year": {
+      "average": 9.649072797834076,
+      "median": 9.136635418455398,
+      "periods": 288,
+      "std": 25.34332546038044
+    },
+    "five_years": {
+      "average": 74.69003205420007,
+      "median": 36.654420354936164,
+      "periods": 240,
+      "std": 99.13536463986459
+    },
+    "ten_years": {
+      "average": 242.25109468462608,
+      "median": 258.0470346132628,
+      "periods": 180,
+      "std": 160.3219735975599
+    }
+  },
+  {
+    "id": "2075",
+    "name": "Nordea Obligationsfond icke-utd",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2075",
+    "one_year": {
+      "average": 3.153349283662582,
+      "median": 2.7357496435042017,
+      "periods": 312,
+      "std": 5.019283426984449
+    },
+    "five_years": {
+      "average": 18.015618165914436,
+      "median": 20.708021670264756,
+      "periods": 264,
+      "std": 12.83593314195406
+    },
+    "ten_years": {
+      "average": 42.327111104574946,
+      "median": 49.17384702232169,
+      "periods": 204,
+      "std": 19.83889032525967
+    }
+  },
+  {
+    "id": "440975",
+    "name": "HSBC GIF RMB Fixed Income AC",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/440975",
+    "one_year": {
+      "average": 5.948980202308721,
+      "median": 4.742524173114557,
+      "periods": 156,
+      "std": 7.476456110433464
+    },
+    "five_years": {
+      "average": 34.769534397149215,
+      "median": 34.11748894077147,
+      "periods": 108,
+      "std": 11.324091685530927
+    },
+    "ten_years": {
+      "average": 84.11946109978338,
+      "median": 84.31625542725664,
+      "periods": 48,
+      "std": 7.965451518898917
+    }
+  },
+  {
+    "id": "1322459",
+    "name": "Vinga Corporate Bond A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1322459",
+    "one_year": {
+      "average": 3.6784389600829024,
+      "median": 4.669803780370774,
+      "periods": 48,
+      "std": 6.802315512815442
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "416997",
+    "name": "IKC Global Flexibel A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/416997",
+    "one_year": {
+      "average": 9.560153752121959,
+      "median": 8.660042635958469,
+      "periods": 132,
+      "std": 11.289088709791658
+    },
+    "five_years": {
+      "average": 57.0681325620354,
+      "median": 57.601247334295294,
+      "periods": 84,
+      "std": 21.08606938087052
+    },
+    "ten_years": {
+      "average": 129.7966557727551,
+      "median": 127.03669116712595,
+      "periods": 24,
+      "std": 14.466655307681016
+    }
+  },
+  {
+    "id": "378656",
+    "name": "UBS European Opportunity Uncons EUR PAcc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/378656",
+    "one_year": {
+      "average": 8.315625712225739,
+      "median": 8.48156132072164,
+      "periods": 204,
+      "std": 15.668763778267678
+    },
+    "five_years": {
+      "average": 62.096848969453035,
+      "median": 58.69121840851885,
+      "periods": 156,
+      "std": 33.922159796576956
+    },
+    "ten_years": {
+      "average": 162.57116613736557,
+      "median": 168.81677235614438,
+      "periods": 96,
+      "std": 52.194958057627055
+    }
+  },
+  {
+    "id": "953456",
+    "name": "CT (Lux) SDG Engmnt Glbl Eq A USD Acc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/953456",
+    "one_year": {
+      "average": 10.116132618743944,
+      "median": 6.5798783932598,
+      "periods": 60,
+      "std": 14.68210798383527
+    },
+    "five_years": {
+      "average": 53.631783658890214,
+      "median": 53.71687169495098,
+      "periods": 12,
+      "std": 3.772970776208251
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "420143",
+    "name": "Nordea 1 - Latin American Equity BP SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/420143",
+    "one_year": {
+      "average": 6.089319251015915,
+      "median": 6.257267543198443,
+      "periods": 204,
+      "std": 22.853824281230363
+    },
+    "five_years": {
+      "average": 17.57620200165662,
+      "median": 16.522679084062432,
+      "periods": 156,
+      "std": 22.65406998921815
+    },
+    "ten_years": {
+      "average": 39.67123541368002,
+      "median": 33.89291218933329,
+      "periods": 96,
+      "std": 34.839295550629274
+    }
+  },
+  {
+    "id": "2743",
+    "name": "Handelsbanken Multi Asset 50 (A1 SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2743",
+    "one_year": {
+      "average": 6.119615632410141,
+      "median": 7.197546857470254,
+      "periods": 240,
+      "std": 8.620311952987645
+    },
+    "five_years": {
+      "average": 29.741628839678782,
+      "median": 31.67226165921239,
+      "periods": 192,
+      "std": 14.973835271077045
+    },
+    "ten_years": {
+      "average": 76.58302154665309,
+      "median": 77.47084473942823,
+      "periods": 132,
+      "std": 16.8186184250869
+    }
+  },
+  {
+    "id": "1142574",
+    "name": "Norron Sustainable Equity RC SEK Acc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1142574",
+    "one_year": {
+      "average": 10.502601912497893,
+      "median": 3.2667851278361493,
+      "periods": 48,
+      "std": 24.216554023505783
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "415687",
+    "name": "SEB Global Climate Opportunity D SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/415687",
+    "one_year": {
+      "average": 9.514655469000697,
+      "median": 8.495361078468274,
+      "periods": 132,
+      "std": 13.804664735122813
+    },
+    "five_years": {
+      "average": 42.32815787819344,
+      "median": 38.32444567710773,
+      "periods": 84,
+      "std": 22.903152520319363
+    },
+    "ten_years": {
+      "average": 116.95685568465107,
+      "median": 119.41934555696362,
+      "periods": 24,
+      "std": 15.680662885634765
+    }
+  },
+  {
+    "id": "1120416",
+    "name": "Nordea Innovation Stars Fund AG-SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1120416",
+    "one_year": {
+      "average": 10.61494001780949,
+      "median": 9.555645770446967,
+      "periods": 48,
+      "std": 19.971006062969643
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "981",
+    "name": "SEB WWF Nordenfond",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/981",
+    "one_year": {
+      "average": 11.294224391525741,
+      "median": 13.110672987322811,
+      "periods": 300,
+      "std": 22.599001657850827
+    },
+    "five_years": {
+      "average": 57.38120614603129,
+      "median": 62.44401214038969,
+      "periods": 252,
+      "std": 43.440871763037755
+    },
+    "ten_years": {
+      "average": 135.6481886668712,
+      "median": 132.01261729583481,
+      "periods": 192,
+      "std": 76.82007721774909
+    }
+  },
+  {
+    "id": "2802",
+    "name": "AMF Räntefond Kort",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2802",
+    "one_year": {
+      "average": 1.5765179081870713,
+      "median": 1.7828338430998683,
+      "periods": 240,
+      "std": 1.7162884207286067
+    },
+    "five_years": {
+      "average": 7.292062292588412,
+      "median": 7.5372929028118625,
+      "periods": 192,
+      "std": 6.778598159373364
+    },
+    "ten_years": {
+      "average": 14.531360697485464,
+      "median": 11.284511331852281,
+      "periods": 132,
+      "std": 9.693360161699786
+    }
+  },
+  {
+    "id": "68",
+    "name": "Barings Hong Kong China A USD Inc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/68",
+    "one_year": {
+      "average": 14.577325312766899,
+      "median": 8.83557692085681,
+      "periods": 312,
+      "std": 30.592819558481445
+    },
+    "five_years": {
+      "average": 85.1085961339348,
+      "median": 67.51419411510447,
+      "periods": 264,
+      "std": 88.4600929288755
+    },
+    "ten_years": {
+      "average": 202.65807784684748,
+      "median": 181.0577450126211,
+      "periods": 204,
+      "std": 128.0598844392527
+    }
+  },
+  {
+    "id": "415796",
+    "name": "BNP Paribas US Small Cap Classic R",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/415796",
+    "one_year": {
+      "average": 14.90724196021458,
+      "median": 12.875124832850585,
+      "periods": 132,
+      "std": 16.48886900729699
+    },
+    "five_years": {
+      "average": 81.37671360846069,
+      "median": 75.94436040043439,
+      "periods": 84,
+      "std": 29.332361466057826
+    },
+    "ten_years": {
+      "average": 243.58095160477478,
+      "median": 240.2168043597124,
+      "periods": 24,
+      "std": 19.133196352613854
+    }
+  },
+  {
+    "id": "788395",
+    "name": "Avanza Auto 1",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/788395",
+    "one_year": {
+      "average": 2.4773556091491833,
+      "median": 2.272446944537974,
+      "periods": 84,
+      "std": 4.460154584195089
+    },
+    "five_years": {
+      "average": 8.800994891574788,
+      "median": 8.709345962793416,
+      "periods": 36,
+      "std": 3.7669670104010744
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "417020",
+    "name": "IKC Strategifond",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/417020",
+    "one_year": {
+      "average": 4.484581457385032,
+      "median": 4.028262237156944,
+      "periods": 132,
+      "std": 6.4685138113880605
+    },
+    "five_years": {
+      "average": 21.455160453562183,
+      "median": 20.276660047186258,
+      "periods": 84,
+      "std": 7.1616475791006895
+    },
+    "ten_years": {
+      "average": 47.32357746882234,
+      "median": 44.85563491281647,
+      "periods": 24,
+      "std": 5.762558372086463
+    }
+  },
+  {
+    "id": "1214802",
+    "name": "Nordea 1 - Global Social Empow BP SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1214802",
+    "one_year": {
+      "average": 6.057831609563362,
+      "median": 8.074334826242726,
+      "periods": 36,
+      "std": 11.267163696529588
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1270939",
+    "name": "Avanza Sverige",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1270939",
+    "one_year": {
+      "average": -3.4481704781346973,
+      "median": -3.8418152910272347,
+      "periods": 36,
+      "std": 15.239463306283039
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1464",
+    "name": "Handelsbanken Amerika Tema (A1 SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1464",
+    "one_year": {
+      "average": 9.710880406639351,
+      "median": 12.641128358896406,
+      "periods": 312,
+      "std": 17.434657560838776
+    },
+    "five_years": {
+      "average": 56.42677421891034,
+      "median": 74.05902494980755,
+      "periods": 264,
+      "std": 64.73650994235972
+    },
+    "ten_years": {
+      "average": 170.49499346000562,
+      "median": 132.63584792938144,
+      "periods": 204,
+      "std": 164.89893072080358
+    }
+  },
+  {
+    "id": "217470",
+    "name": "Sensor Sverige Select A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/217470",
+    "one_year": {
+      "average": 10.385876925148674,
+      "median": 11.225624375659047,
+      "periods": 180,
+      "std": 11.143777506989549
+    },
+    "five_years": {
+      "average": 69.53051318424967,
+      "median": 66.3818169094326,
+      "periods": 132,
+      "std": 21.02106621432964
+    },
+    "ten_years": {
+      "average": 183.23728542265522,
+      "median": 178.1470789073366,
+      "periods": 72,
+      "std": 37.75091413398332
+    }
+  },
+  {
+    "id": "2801",
+    "name": "AMF Aktiefond Småbolag",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2801",
+    "one_year": {
+      "average": 17.76134655180015,
+      "median": 18.676059979171853,
+      "periods": 240,
+      "std": 26.51014746165387
+    },
+    "five_years": {
+      "average": 100.07805530379154,
+      "median": 97.37014596372558,
+      "periods": 192,
+      "std": 55.447324791401975
+    },
+    "ten_years": {
+      "average": 325.4829618100649,
+      "median": 299.9897521620709,
+      "periods": 132,
+      "std": 129.2976198742518
+    }
+  },
+  {
+    "id": "2572",
+    "name": "Handelsbanken EMEA Tema (A1 SEK)",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2572",
+    "one_year": {
+      "average": 9.943351443903724,
+      "median": 7.375797501063005,
+      "periods": 312,
+      "std": 29.63251558351742
+    },
+    "five_years": {
+      "average": 46.64484105823614,
+      "median": 16.854783985547243,
+      "periods": 264,
+      "std": 80.54359192191895
+    },
+    "ten_years": {
+      "average": 78.67883733363637,
+      "median": 47.14715184734865,
+      "periods": 204,
+      "std": 90.00121647280255
+    }
+  },
+  {
+    "id": "202568",
+    "name": "Pareto Aksje Norge B",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/202568",
+    "one_year": {
+      "average": 8.550836641041379,
+      "median": 8.70557170114878,
+      "periods": 228,
+      "std": 23.035551640314644
+    },
+    "five_years": {
+      "average": 33.59566676357341,
+      "median": 30.881302257286038,
+      "periods": 180,
+      "std": 28.94973012418416
+    },
+    "ten_years": {
+      "average": 71.00690972509553,
+      "median": 68.2621390832747,
+      "periods": 120,
+      "std": 46.64458050707754
+    }
+  },
+  {
+    "id": "1895",
+    "name": "Skandia Cancerfonden",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1895",
+    "one_year": {
+      "average": 10.36151323373715,
+      "median": 12.978582145573306,
+      "periods": 312,
+      "std": 22.650730011031662
+    },
+    "five_years": {
+      "average": 50.58332283639413,
+      "median": 49.084880999817706,
+      "periods": 264,
+      "std": 39.83538168385746
+    },
+    "ten_years": {
+      "average": 127.36194075360095,
+      "median": 128.3697675491118,
+      "periods": 204,
+      "std": 62.23915917233358
+    }
+  },
+  {
+    "id": "1666004",
+    "name": "Nordea Tillväxtmrk Europa A tillväxt SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1666004",
+    "one_year": {
+      "average": 12.953144188809885,
+      "median": 13.663387055837898,
+      "periods": 12,
+      "std": 6.798415020510304
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "535296",
+    "name": "Plain Capital LunatiX",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/535296",
+    "one_year": {
+      "average": 1.6197272375894574,
+      "median": 0.6439439385840093,
+      "periods": 108,
+      "std": 14.497452816776919
+    },
+    "five_years": {
+      "average": 8.861409057781186,
+      "median": 9.096406161795583,
+      "periods": 60,
+      "std": 15.994385145408003
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1647",
+    "name": "Fondita Finland Micro Cap B",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1647",
+    "one_year": {
+      "average": 13.130760840175961,
+      "median": 14.01513934098368,
+      "periods": 312,
+      "std": 24.42928337137276
+    },
+    "five_years": {
+      "average": 69.93900716708183,
+      "median": 56.78698534471832,
+      "periods": 264,
+      "std": 56.63230002716982
+    },
+    "ten_years": {
+      "average": 161.03716005766807,
+      "median": 158.75019391169178,
+      "periods": 204,
+      "std": 53.23077934115718
+    }
+  },
+  {
+    "id": "227292",
+    "name": "Invesco Asia Consumer Demand A USD Acc",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/227292",
+    "one_year": {
+      "average": 8.71806308085941,
+      "median": 7.208455810700712,
+      "periods": 192,
+      "std": 17.454884235214198
+    },
+    "five_years": {
+      "average": 48.30076590826729,
+      "median": 50.53452295208139,
+      "periods": 144,
+      "std": 29.21342036935243
+    },
+    "ten_years": {
+      "average": 124.4853462439681,
+      "median": 118.90206211342289,
+      "periods": 84,
+      "std": 40.81764385055207
+    }
+  },
+  {
+    "id": "1736805",
+    "name": "SEB Asienfond ex Japan B",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1736805",
+    "one_year": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "2012",
+    "name": "Skandia Småbolag Sverige",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2012",
+    "one_year": {
+      "average": 15.539930428376334,
+      "median": 16.375204716823134,
+      "periods": 312,
+      "std": 27.45447936378349
+    },
+    "five_years": {
+      "average": 88.65105895311994,
+      "median": 89.43831155917056,
+      "periods": 264,
+      "std": 56.91591045587584
+    },
+    "ten_years": {
+      "average": 252.53081702548755,
+      "median": 230.90115559287437,
+      "periods": 204,
+      "std": 107.1546110432077
+    }
+  },
+  {
+    "id": "2344",
+    "name": "Fidelity Global Industrials A-Dis-EUR",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/2344",
+    "one_year": {
+      "average": 9.95512534895704,
+      "median": 11.016623059940773,
+      "periods": 288,
+      "std": 18.320656732902155
+    },
+    "five_years": {
+      "average": 53.10827048714582,
+      "median": 53.33735778791808,
+      "periods": 240,
+      "std": 34.326726891776055
+    },
+    "ten_years": {
+      "average": 114.51408090773221,
+      "median": 105.88153044358768,
+      "periods": 180,
+      "std": 49.43609786144165
+    }
+  },
+  {
+    "id": "334870",
+    "name": "Allianz Income and Growth AT USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/334870",
+    "one_year": {
+      "average": 11.493382698987268,
+      "median": 11.05745776089492,
+      "periods": 156,
+      "std": 9.108057917521672
+    },
+    "five_years": {
+      "average": 70.26581943409967,
+      "median": 70.09419118980388,
+      "periods": 108,
+      "std": 13.018473360389956
+    },
+    "ten_years": {
+      "average": 197.0529969796343,
+      "median": 196.0087442923184,
+      "periods": 48,
+      "std": 15.21884708171861
+    }
+  },
+  {
+    "id": "1854636",
+    "name": "SEB Montrusco Bolton Global Equity C USD",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1854636",
+    "one_year": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1509081",
+    "name": "DNB Global Emerging Markets Indeks S",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1509081",
+    "one_year": {
+      "average": 5.598105763014143,
+      "median": 6.24454920848192,
+      "periods": 72,
+      "std": 11.019763099671978
+    },
+    "five_years": {
+      "average": 24.30563531858949,
+      "median": 26.201490473903647,
+      "periods": 24,
+      "std": 7.174544159566301
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1803541",
+    "name": "Ruth Core Nordic Small Cap A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1803541",
+    "one_year": {
+      "average": 14.457165968462869,
+      "median": 12.93875030385667,
+      "periods": 24,
+      "std": 7.933892076020341
+    },
+    "five_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1107932",
+    "name": "Nordea 1 - Global Disruption BP SEK",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1107932",
+    "one_year": {
+      "average": 10.186935338002296,
+      "median": 12.444292360863933,
+      "periods": 60,
+      "std": 16.289226088649393
+    },
+    "five_years": {
+      "average": 51.07625667464573,
+      "median": 51.23301351027824,
+      "periods": 12,
+      "std": 5.822892370868085
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "1023645",
+    "name": "BGF Circular Economy A2",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/1023645",
+    "one_year": {
+      "average": 8.858140918740128,
+      "median": 7.007525972595982,
+      "periods": 60,
+      "std": 14.24095065203955
+    },
+    "five_years": {
+      "average": 44.884340024687596,
+      "median": 46.75172477805825,
+      "periods": 12,
+      "std": 6.032845840988259
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "214730",
+    "name": "IKC Europa Flexibel A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/214730",
+    "one_year": {
+      "average": -1.5680656829879198,
+      "median": -2.0736707208937313,
+      "periods": 64,
+      "std": 10.380645536231333
+    },
+    "five_years": {
+      "average": -11.985997668379897,
+      "median": -14.775000000000006,
+      "periods": 16,
+      "std": 8.643956728374025
+    },
+    "ten_years": {
+      "average": 92.66486061422552,
+      "median": 116.4148646135194,
+      "periods": 72,
+      "std": 50.46234257647562
+    }
+  },
+  {
+    "id": "907814",
+    "name": "Swedbank Robur Selection 50",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/907814",
+    "one_year": {
+      "average": 5.271678317210718,
+      "median": 5.377256429963758,
+      "periods": 72,
+      "std": 7.23926586066943
+    },
+    "five_years": {
+      "average": 23.236797915720928,
+      "median": 24.079482662710923,
+      "periods": 24,
+      "std": 4.089246494885085
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "953015",
+    "name": "Proethos Fond",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/953015",
+    "one_year": {
+      "average": 12.635093639070218,
+      "median": 6.522563393774822,
+      "periods": 72,
+      "std": 25.13556115402789
+    },
+    "five_years": {
+      "average": 70.72872890121288,
+      "median": 73.82372102974891,
+      "periods": 24,
+      "std": 36.3182431690959
+    },
+    "ten_years": {
+      "average": -99999,
+      "median": -99999,
+      "periods": 0,
+      "std": -99999
+    }
+  },
+  {
+    "id": "283139",
+    "name": "Cliens Sverige Fokus A",
+    "avanza_url": "https://www.avanza.se/fonder/om-fonden.html/283139",
+    "one_year": {
+      "average": 12.960649654555146,
+      "median": 13.840470011316473,
+      "periods": 156,
+      "std": 17.054828073947988
+    },
+    "five_years": {
+      "average": 82.5743322794885,
+      "median": 82.67789894540864,
+      "periods": 108,
+      "std": 39.06258171723276
+    },
+    "ten_years": {
+      "average": 235.48174986208096,
+      "median": 206.99678935926715,
+      "periods": 48,
+      "std": 69.6080226481318
+    }
+  }
+]
