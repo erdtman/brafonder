@@ -32,7 +32,7 @@
       <tbody>
         <tr v-for="item in data" v-bind:key="item.id">
           <td>
-            <a href="#" @click.prevent="openFund(item)" class="fund-link">{{ item.name }}</a>
+            <router-link :to="'/komplett/fond/' + createSlug(item.name, item.id)" class="fund-link">{{ item.name }}</router-link>
           </td>
 
           <td>{{ getValueToDisplay(item.ten_years.median, '%') }}</td>
@@ -84,6 +84,7 @@
 
 <script>
 import json from "./data/fundDataAll.json";
+import { createSlug } from './router.js';
 const items_to_show = 200;
 
 const one_year_median_sort = (a, b) => b.one_year.median - a.one_year.median;
@@ -132,7 +133,6 @@ const updaters = {
 
 export default {
   components: {},
-  emits: ['open-fund'],
   data() {
     return {
       data: updateData(five_year_filter(0), ten_year_median_sort, ""),
@@ -178,9 +178,7 @@ export default {
     async is_active(label) {
       return label === this.active;
     },
-    openFund(fund) {
-      this.$emit('open-fund', fund);
-    }
+    createSlug
   },
 };
 </script>

@@ -14,9 +14,7 @@
             <section class="navbar-section"></section>
         </header>
 
-        <router-view v-slot="{ Component }">
-            <component :is="Component" @open-fund="openFund" />
-        </router-view>
+        <router-view />
 
         <FundModal v-if="selectedFund" :fund="selectedFund" @close="closeFund" />
     </div>
@@ -52,22 +50,16 @@ export default {
                         const fund = fundData.find(f => String(f.id) === fundId);
                         if (fund) {
                             selectedFund.value = fund;
+                            document.title = `${fund.name} - brafonder.se`;
                             return;
                         }
                     }
                 }
                 selectedFund.value = null;
+                document.title = 'brafonder.se';
             },
             { immediate: true }
         );
-
-        const openFund = (fund) => {
-            selectedFund.value = fund;
-            // Update URL without full navigation
-            const slug = createSlugFromFund(fund);
-            const basePath = currentView.value === 'complete' ? '/komplett' : '';
-            router.push(`${basePath}/fond/${slug}`);
-        };
 
         const closeFund = () => {
             selectedFund.value = null;
@@ -76,20 +68,9 @@ export default {
             router.push(basePath);
         };
 
-        const createSlugFromFund = (fund) => {
-            const slug = fund.name
-                .toLowerCase()
-                .replace(/[åä]/g, 'a')
-                .replace(/ö/g, 'o')
-                .replace(/[^a-z0-9]+/g, '-')
-                .replace(/^-|-$/g, '');
-            return `${slug}-${fund.id}`;
-        };
-
         return {
             currentView,
             selectedFund,
-            openFund,
             closeFund
         };
     }

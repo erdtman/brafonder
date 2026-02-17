@@ -24,7 +24,7 @@
             <tbody>
                 <tr v-for="item in data" v-bind:key="item.id">
                     <td>
-                        <a href="#" @click.prevent="openFund(item)" class="fund-link">{{ item.name }}</a>
+                        <router-link :to="'/fond/' + createSlug(item.name, item.id)" class="fund-link">{{ item.name }}</router-link>
                     </td>
                     <td>{{ getValueToDisplay(item.ten_years.median, '%') }}</td>
                     <td>{{ getValueToDisplay(item.five_years.median, '%') }}</td>
@@ -37,6 +37,7 @@
 
 <script>
 import json from './data/fundDataAll.json'
+import { createSlug } from './router.js'
 const items_to_show = 100;
 const one_year_sort = (a, b) => b.one_year.median - a.one_year.median;
 const five_year_sort = (a, b) => b.five_years.median - a.five_years.median;
@@ -46,7 +47,6 @@ const five_year_filter = (value) => value.five_years.periods > 50;
 const ten_year_filter = (value) => value.ten_years.periods > 50;
 
 export default {
-    emits: ['open-fund'],
     data() {
         return {
             data: json.filter(ten_year_filter).sort(ten_year_sort).slice(0, items_to_show),
@@ -61,9 +61,7 @@ export default {
             postfix = postfix ? postfix : ''
             return `${value.toFixed(0)} ${postfix}`;
         },
-        openFund(fund) {
-            this.$emit('open-fund', fund);
-        },
+        createSlug,
         async one_year_sort() {
             this.data = json.filter(one_year_filter).sort(one_year_sort).slice(0, items_to_show);
             this.active = "one"
