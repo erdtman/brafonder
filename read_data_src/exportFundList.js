@@ -1,5 +1,6 @@
 const { getDb } = require('./db.js');
 const { average, median, std } = require('./utils.js');
+const { describeFund } = require('./describeFund.js');
 const fs = require('fs');
 const path = require('path');
 
@@ -37,6 +38,18 @@ function exportFundList() {
 
         // Only include funds with at least some data
         if (entry.one_year.periods > 0 || entry.five_years.periods > 0 || entry.ten_years.periods > 0) {
+            // Build descriptions from full data point arrays
+            const dataForDescriptions = {};
+            for (const periodType of ['1-year', '5-year', '10-year']) {
+                const points = db.prepare(`
+                    SELECT start_date, end_date, value FROM data_points
+                    WHERE fund_id = ? AND period_type = ?
+                    ORDER BY start_date ASC
+                `).all(fund.id, periodType);
+                dataForDescriptions[periodType] = points.map(p => ({ value: p.value }));
+            }
+            entry.descriptions = describeFund(dataForDescriptions);
+
             result.push(entry);
         }
     }

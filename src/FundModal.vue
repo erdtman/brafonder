@@ -11,6 +11,10 @@
                 </div>
             </div>
             <div class="fund-modal-body">
+                <ul v-if="fund.descriptions && fund.descriptions.length" class="fund-descriptions">
+                    <li v-for="(desc, i) in fund.descriptions" :key="i">{{ desc }}</li>
+                </ul>
+
                 <table class="table fund-details">
                     <thead>
                         <tr>
@@ -342,6 +346,25 @@ export default {
     text-align: center;
     padding: 2rem;
     color: #666;
+}
+
+.fund-descriptions {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.fund-descriptions li {
+    padding: 0.5rem 0.75rem;
+    background: #f7f9fb;
+    border-left: 3px solid #188ab8;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
 }
 
 .fund-details {

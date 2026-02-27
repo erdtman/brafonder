@@ -41,6 +41,9 @@ export default {
         });
 
         // Watch for route changes to handle fund modal
+        const defaultMetaDescription = 'brafonder.se är tänkt att vara ett stöd när du letar efter bra fonder. Vi har gjort en analys av historisk avkastning på alla fonder tillgängliga via Avanza.';
+        const metaDescriptionTag = document.querySelector('meta[name="description"]');
+
         watch(
             () => route.params.slug,
             (slug) => {
@@ -51,12 +54,21 @@ export default {
                         if (fund) {
                             selectedFund.value = fund;
                             document.title = `${fund.name} - brafonder.se`;
+                            if (metaDescriptionTag) {
+                                const desc = fund.descriptions && fund.descriptions.length > 0
+                                    ? `${fund.name}: ${fund.descriptions[0]}`
+                                    : `Historisk avkastningsanalys för ${fund.name} — se 1-, 5- och 10-årsperioder på brafonder.se.`;
+                                metaDescriptionTag.setAttribute('content', desc);
+                            }
                             return;
                         }
                     }
                 }
                 selectedFund.value = null;
                 document.title = 'brafonder.se';
+                if (metaDescriptionTag) {
+                    metaDescriptionTag.setAttribute('content', defaultMetaDescription);
+                }
             },
             { immediate: true }
         );
