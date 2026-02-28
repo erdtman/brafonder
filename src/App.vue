@@ -55,8 +55,8 @@ export default {
                             selectedFund.value = fund;
                             document.title = `${fund.name} - brafonder.se`;
                             if (metaDescriptionTag) {
-                                const desc = fund.descriptions && fund.descriptions.length > 0
-                                    ? `${fund.name}: ${fund.descriptions[0]}`
+                                const desc = fund.description
+                                    ? `${fund.name}: ${fund.description}`
                                     : `Historisk avkastningsanalys för ${fund.name} — se 1-, 5- och 10-årsperioder på brafonder.se.`;
                                 metaDescriptionTag.setAttribute('content', desc);
                             }

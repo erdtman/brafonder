@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="fund-modal-body">
-                <p v-if="fund.descriptions && fund.descriptions.length" class="fund-descriptions">{{ fund.descriptions.join(' ') }}</p>
+                <p v-if="fund.description" class="fund-descriptions">{{ fund.description }}</p>
 
                 <table class="table fund-details">
                     <thead>
