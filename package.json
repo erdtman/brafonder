@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "deploy": "npm run build && git add dist/ && (git diff --cached --quiet || git commit -m 'deploy: update built assets') && git subtree push --prefix dist origin gh-pages",
+    "deploy": "npm run build && git add dist/ && (git diff --cached --quiet || git commit -m 'deploy: update built assets') && git push origin $(git subtree split --prefix dist master):gh-pages --force",
     "serve": "npx serve dist --single",
     "watch": "webpack --watch",
     "heroku-postbuild": "webpack -p"
