@@ -51,21 +51,60 @@ tbody tr:nth-child(even) {
     background: rgba(0, 0, 0, .04);
 }
 
-.btn.active,
-.btn:active {
-    background: #188ab8;
-    border-color: #188ab8;
-}
-
+/* --- Unified button styles --- */
 .btn {
-    border: 0.05rem solid #188ab8;
+    border: 1px solid #188ab8;
     color: #188ab8;
+    border-radius: 4px;
+    transition: background 0.15s, border-color 0.15s, color 0.15s, box-shadow 0.15s;
 }
 
 .btn:focus,
 .btn:hover {
-    background: #f1f1fc;
-    border-color: #0e516b;
-    color: #0e516b;
+    background: #e8f4f8;
+    border-color: #146d93;
+    color: #146d93;
+}
+
+.btn.active,
+.btn:active {
+    background: #188ab8;
+    border-color: #188ab8;
+    color: #fff;
+}
+
+/* Primary button variant */
+.btn.btn-primary {
+    background: #188ab8;
+    border-color: #188ab8;
+    color: #fff;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+    background: #146d93;
+    border-color: #146d93;
+    color: #fff;
+}
+
+/* Navbar buttons — visible on blue background */
+.navbar .btn {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.85);
+    background: transparent;
+}
+
+.navbar .btn:hover,
+.navbar .btn:focus {
+    border-color: #fff;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.navbar .btn.active,
+.navbar .btn:active {
+    background: #fff;
+    border-color: #fff;
+    color: #188ab8;
 }
 
